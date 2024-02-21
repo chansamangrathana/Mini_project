@@ -508,17 +508,6 @@ body {
   letter-spacing: normal;
   
 }
-@media screen and (max-width: 1425px) {
-  .background-frame {
-    flex-wrap: wrap;
-  }
-}
-@media screen and (max-width: 825px) {
-  .footer {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    box-sizing: border-box;
-  }
-}
+
 
 
