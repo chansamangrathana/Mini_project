@@ -21,7 +21,7 @@ body {
   position: relative;
 }
 
-.sign-in {
+.btn-home {
   height: 31px;
   position: relative;
   font-size: 24px;
@@ -31,7 +31,7 @@ body {
   display: flex;
   align-items: center;
 }
-.sign-in-wrapper {
+.btn-wrapper {
   cursor: pointer;
   border: 1px solid #fff;
   padding: 10px 19px;
@@ -41,19 +41,16 @@ body {
   flex-direction: row;
   justify-content: center;
 }
-.btn-watch:hover,
-.button:hover,.sign-in-container:hover,.sign-in-frame:hover,.sign-in-wrapper:hover {
+.btn-watch:hover,.button:hover,.btn-container:hover,.btn-coming:hover,.btn-wrapper:hover {
   background-color: #8a0303;
   border: 1px solid #e6e6e6;
   box-sizing: border-box;
 }
-.sign-in-container,
-.sign-in-wrapper,
-.sign-in1 {
+.btn-container,.btn-wrapper,.btn-movie {
   display: flex;
   align-items: center;
 }
-.sign-in1 {
+.btn-movie {
   height: 31px;
   position: relative;
   font-size: 24px;
@@ -61,7 +58,7 @@ body {
   color: #fff9f9;
   text-align: left;
 }
-.sign-in-container {
+.btn-container {
   cursor: pointer;
   border: 1px solid #fff;
   padding: 10px 19px;
@@ -72,18 +69,18 @@ body {
   flex-direction: row;
   justify-content: center;
 }
-.sign-in2 {
+.btn-coming-soon {
   position: relative;
   font-size: 24px;
   font-family: Calistoga;
   color: #fff9f9;
   text-align: left;
 }
-.btn,.sign-in-frame {
+.btn,.btn-coming {
   display: flex;
   flex-direction: row;
 }
-.sign-in-frame {
+.btn-coming {
   cursor: pointer;
   border: 1px solid #fff;
   padding: 10px 16px;
@@ -104,12 +101,13 @@ body {
   gap: 0 30px;
   max-width: 100%;
 }
-.sign-in3 {
+.btn-sign-in {
   position: relative;
   font-size: 24px;
   font-family: Calistoga;
   color: #fff9f9;
   text-align: left;
+  
 }
 .button,.logo {
   display: flex;
@@ -204,19 +202,323 @@ body {
   color: #f6f6f6;
   font-family: Calistoga;
 }
-@media screen and (max-width: 800px) {
-  .logo1 {
-    display: none;
-  }
-  .logo {
-    width: 1028px;
-  }
-  .celebrity-2023-kim-container {
-    font-size: 51px;
+.tranding {
+  height: 47px;
+  position: relative;
+  display: inline-block;
+}
+.text,.title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.title {
+  align-self: stretch;
+  border-bottom: 3px solid #faf4f4;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 0 28px;
+}
+.text {
+  width: 1346px;
+  flex-direction: column;
+  padding: 0;
+  box-sizing: border-box;
+}
+.movie {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 22px 10px 32px;
+  text-align: left;
+  font-size: 36px;
+  color: #fff;
+  font-family: Calistoga;
+}
+.img-child,
+.img-child1,
+.img-inner,
+.img-item,
+.rectangle-icon {
+  align-self: stretch;
+  width: 395px;
+  position: relative;
+  border-radius: 50px;
+  max-height: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
+  min-height: 461px;
+}
+.img {
+  width: 1398px;
+  overflow-x: auto;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 16px;
+}
+.img-child2,
+.img-child3,
+.img-child4,
+.img-child5,
+.img-child6 {
+  align-self: stretch;
+  width: 395px;
+  position: relative;
+  border-radius: 50px;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 461px;
+}
+.big-img,
+.img1 {
+  flex-shrink: 0;
+  gap: 0 16px;
+}
+.img1 {
+  width: -657px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.big-img {
+  width: 4094px;
+}
+.content,.content1,.big-img,.scrol {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.scrol {
+  width: 1300px;
+  overflow-x: auto;
+  flex-shrink: 0;
+ 
+ 
+}
+.content,.content1 {
+  padding: 0 30px 0 22px;
+}
+.content {
+  position: relative;
+  background-color: #530202;
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 53px 20px 101px;
+  box-sizing: border-box;
+  gap: 50px 0;
+}
+
+.emoji1 {
+  height: 45.7px;
+  width: 50.8px;
+  position: relative;
+}
+.emoji2 {
+  height: 36px;
+  width: 58px;
+  position: relative;
+}
+.emoji,.set {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.emoji {
+  align-items: center;
+  gap: 0 13px;
+}
+.set {
+  align-items: flex-start;
+  padding: 0 7px;
+}
+.tagline {
+  align-self: stretch;
+  position: relative;
+}
+.company {
+  width: 344px;
+  margin: 0 !important;
+  position: absolute;
+  top: 37px;
+  left: 103px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 15px 0 23px;
+  box-sizing: border-box;
+  gap: 36px 0;
+  color: #fff;
+}
+.title {
+  align-self: stretch;
+  height: 31px;
+  position: relative;
+  display: inline-block;
+}
+.facebook,.instagram,.twitter {
+  margin-block-start: 0;
+  margin-block-end: 22.5px;
+}
+.linkedin {
+  margin: 0;
+}
+.list {
+  align-self: stretch;
+  height: 148px;
+  position: relative;
+  font-size: 15px;
+  color: #fff;
+  display: inline-block;
+}
+.column-2 {
+  height: 270.1px;
+  width: 193px;
+  margin: 0 !important;
+  position: absolute;
+  top: 37px;
+  left: 597px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 85px;
+  box-sizing: border-box;
+  gap: 13px 0;
+}
+.list1,
+.title1 {
+  position: relative;
+}
+.title1 {
+  align-self: stretch;
+  height: 31px;
+  display: inline-block;
+}
+.list1 {
+  font-size: 15px;
+  color: #fff;
+  white-space: nowrap;
+}
+.column-3 {
+  height: 98.9px;
+  width: 296px;
+  margin: 0 !important;
+  position: absolute;
+  top: 37px;
+  left: 940px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 37px;
+  box-sizing: border-box;
+  gap: 13px 0;
+}
+.copy,
+.menu {
+  height: 24px;
+  width: 422px;
+  position: relative;
+  letter-spacing: 0.26px;
+  line-height: 16px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.menu {
+  text-align: right;
+}
+.background {
+  width: 1247px;
+  margin: 0 !important;
+  position: absolute;
+  top: 407px;
+  left: 103px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 100px;
+  box-sizing: border-box;
+  gap: 0 150px;
+  max-width: 100%;
+  font-size: 12px;
+  font-family: Jost;
+}
+.content2,.footer,.property-1default {
+  overflow: hidden;
+  display: flex;
+  box-sizing: border-box;
+}
+.property-1default {
+  align-self: stretch;
+  height: 490px;
+  flex-shrink: 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 37px 103px;
+  position: relative;
+  gap: 100px 150px;
+  max-width: 100%;
+}
+.content2,.footer {
+  align-items: center;
+}
+.footer {
+  height: 569px;
+  flex: 1;
+  border-radius: 5px;
+  background-color:#530202;
+  border: 1px dashed #530202;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 30px 22px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 24px;
+  color: #92989f;
+  font-family: Calistoga;
+}
+.content2 {
+  width: 100%;
+  position: relative;
+  background-color: #530202;
+  flex-direction: row;
+  justify-content: center;
+  padding: 81px 20px;
+  letter-spacing: normal;
+  
+}
+@media screen and (max-width: 1425px) {
+  .background-frame {
+    flex-wrap: wrap;
   }
 }
-@media screen and (max-width: 450px) {
-  .celebrity-2023-kim-container {
-    font-size: 38px;
+@media screen and (max-width: 825px) {
+  .footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
   }
 }
+
+
