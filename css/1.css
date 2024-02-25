@@ -1,7 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: cursive;
+    src: url(../fonts/cursive.ttf);
+}
+body{
+    font-family: cursive;
+}
 .logo{
     font-weight: bold;
     font-size: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: cursive;
     color: deeppink;
 
 }
@@ -15,16 +27,18 @@
     height: 4px;
 }
 .subtitle{
-    font: 1em sans-serif;
-    color: rgb(52, 17, 17);
+    font: 1rem  ;
+    color: rgb(10, 4, 5);
     font-weight: 400px;
 }
 .section-title{
-    color: #930451;
+    color: #dd0c6a;
+   padding: 100px 0px 0px 0px;
+
 }
 a{
     text-decoration: none;
-    color: #2b1e1e;
+    color: #f5f2f3;
 }
 
 .navbar{
@@ -53,13 +67,13 @@ a{
     align-items: center;
 }
 .main-section-container h1{
-    font-family: serif;
+    font-family: cursive;
     font-weight: bold;
-    color: #f379b6;
+    color: #de4f96;
 }
 .main-section-container p{
-    font-family: sans-serif;
-    color: #790707;
+    font-family: cursive;
+    color: #e65dab;
     opacity: 7;
 }
 /* about */
@@ -69,6 +83,8 @@ a{
 .about-right img{
     cursor: pointer;
     transition: 0.5s;
+    height: 50opx;
+    border-radius: 20px;
 
 }
 .about-right:hover img{
@@ -101,7 +117,8 @@ a{
 .project-box{
     overflow: hidden;
     position: relative;
-    height: 20rem;
+    height: 25rem;
+    border-radius: 15px;
 }
 .project-box img{
     position: absolute;
@@ -128,7 +145,7 @@ a{
 }
 .project-box:hover img{
     transform: scale(1.1);
-    filter: blur(2px);
+    filter: blur(2px); 
 }
 .project-box:hover .box-cover{
     opacity: 1;
@@ -169,7 +186,7 @@ a{
 
 .footerbottom{
     margin-top: 30px;
-    background-color: #f19db8ec;
+    /* background-color: #d1104dec; */
     padding: 10px;
     text-align: center;
 }
@@ -182,4 +199,27 @@ a{
     letter-spacing: 1px;
     font-weight: 400px;
     margin: 0px 5px ;
+}
+@media (min-width: 576px) {
+    .logo {
+        font-size: 24px;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        padding: 1rem 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+    .main-section-container {
+        padding: 4rem 2rem;
+    }
 }
