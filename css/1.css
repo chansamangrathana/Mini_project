@@ -74,6 +74,9 @@ a {
   color: #e65dab;
   opacity: 7;
 }
+.main-section img{
+  animation: mainmation 5s infinite;
+}
 /* about */
 .about-right {
   overflow: hidden;
@@ -146,7 +149,10 @@ a {
   opacity: 1;
 }
 .contect-left img {
-  transition: 0.5s;
+  transition: .5s;
+}
+.contect-left:hover img{
+  transform: scale(1.5s);
 }
 .footer {
   margin-top: 30px;
@@ -198,6 +204,18 @@ a {
 }
 .form-control {
   background-color: rgba(230, 173, 193, 0.445);
+}
+@keyframes mainmation{
+  0%{
+    transform: translateY(-20px);
+  }
+  50%{
+    transform: translateY(70px);
+  }
+  100%{
+    transform: translateY(-20px);
+  }
+  
 }
 @media (min-width: 576px) {
   .logo {
